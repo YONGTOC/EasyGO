@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "building_name": "\u90d1\u4e1c\u56fe\u4e66\u9986",
+            "name": "1F",
+            "FloorID": "1F",
+            "iconUrl": ""
+        },
+        {
+            "building_name": "\u90d1\u4e1c\u56fe\u4e66\u9986",
+            "name": "2F",
+            "FloorID": "2F",
+            "iconUrl": ""
+        },
+        {
+            "building_name": "\u90d1\u4e1c\u56fe\u4e66\u9986",
+            "name": "3F",
+            "FloorID": "3F",
+            "iconUrl": ""
+        },
+        {
+            "building_name": "\u90d1\u4e1c\u56fe\u4e66\u9986",
+            "name": "4F",
+            "FloorID": "4F",
+            "iconUrl": ""
+        }
+    ]
+}

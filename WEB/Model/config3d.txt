@@ -1,0 +1,21 @@
+//// -project包的相关配置- 
+baoLocalPath = "Model/" 				//// 文件夹相对路径，没有就填""
+firstBaoNameAndExtItem="project_A.zip"		//// project前置包 包名+扩展
+projectBaoNameAndExt="project.zip"			//// project包名+扩展
+
+//// -miaokit相关信息-
+projectIdent="" 						//// 项目标识(没有填"")
+nCompassBias="130"                      ////地图正方向相对与北方逆时针旋转度数
+mCoord="0","0"                           ////中心点经纬度坐标
+mBackground="0.09","0.13","0.23"         //// 背景颜色      
+hasOutModel="true"                      //// 是否包含定制的室外模型
+outModelPath="./Model/"                 ////定制的室外模型路径
+outModelCount="9"                       ////室外模型数量
+outModelStartJPG="1"                    ////室外模型JPG贴图起始索引
+outModelStartPNG="8"                    ////室外模型数量PNG贴图起始索引
+
+//// 屏幕尺寸相关
+canvasWidthScale="1"				//// canvasWidthScale="(EAM函数说明文档.doc 第1项)"
+canvasHeightScale="1"					//// canvasHeightScale="(EAM函数说明文档.doc 第2项)"
+canvasLeftWidth="0","0"			//// canvasLeftWidth="(EAM函数说明文档.doc 第3项)","(EAM函数说明文档.doc 第4项)"
+canvasTopHeight="0","0"				//// canvasTopHeight="(EAM函数说明文档.doc 第5项)","(EAM函数说明文档.doc 第6项)"

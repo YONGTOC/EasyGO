@@ -1,0 +1,14 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "system",
+    "jsx": "react",
+    "outDir": "../js",
+    "outFile": "../js/app.js",
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "target": "es6"
+  }
+}

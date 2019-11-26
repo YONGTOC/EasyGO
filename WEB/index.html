@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn" style="height: 100%; margin: 0; padding: 0;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easygo</title>
+    <script src="./js/static/react.development.js"></script>
+    <script src="./js/static/react-dom.development.js"></script>
+    <script src="./js/static/babel.min.js"></script>
+    <script src="./js/static/jquery.js"></script>
+    <script src="./js/static/moment.min.js"></script>
+    <script src="./js/static/antd.min.js"></script>
+
+    <script src="./easygojs/lib/jszip.min.js"></script>
+    <script src="./easygojs/lib/three/three.js"></script>
+    <script src="./easygojs/api/miaokit.js"></script>
+    <script src="./easygojs/api/api.js"></script>
+    <script src="./easygojs/js/LoadData.js"></script>
+    <script src="./easygojs/js/Action.js"></script>
+    <script src="./easygojs/lib/datgui/dat.gui.js"></script>
+    <script src="./easygojs/js/GUI.js"></script>
+
+    <link rel="stylesheet" href="css/antd.min.css" />
+    <link href="./css/test.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body style="height: 100%; margin: 0; padding: 0;">
+    <!-- <div id="root"></div> -->
+    <div class="canvas">
+        <div class="webgl_content" id="webgl_container" style="height: 100%;"></div>
+    </div>
+    <div id="example"></div>
+    <div id="webgl"></div>
+    <div id="list" style="display: none"></div>
+    <div id="pageA" style="display: none"></div>
+    <div id="pageB" style="display: none"></div>
+    <div id="pageC" style="display: none"></div>
+    <div id="pageD" style="display: none"></div>
+
+
+
+    <script type="text/babel" src="./js/test.js"></script>
+
+    <script src="./js/index.js " type="text/babel"></script>
+    <script src="./js/list.js" type="text/babel"></script>
+    <script type="text/javascript">
+        document.oncontextmenu = function () {
+            event.returnValue = false;
+        }
+
+        function Test() {
+            window.addEventListener("keydown", function (e) {
+                if ("1" == e.key) {
+                    if (!Posfault) {
+                        console.error("开启定位");
+                        NNavigation.EnableLocate(true);
+                        Posfault = true;
+                    } else {
+                        PLocation = NNavigation.g_pCurLocation;
+                        GLOBAL.PLocation = PLocation;
+                        $(".start_input input").val("我的位置");
+                    }
+
+                }
+                if ("2" == e.key) {
+                    locationTest();
+                }
+                if ("3" == e.key) {
+                    UpLayer();
+                }
+                if ("4" == e.key) {
+                    SwitchView(2);
+                }
+                if ("5" == e.key) {
+                    Navigate("XLYF2", "MT", 0);
+                }
+
+            });
+        }
+        Test();
+        
+        
+
+        // NNavigation.NavigateCancel = function () {
+        //     console.log("NavigateCancel");
+        //      // LockCameraToPath(0);
+        // }
+
+    </script>
+    <script type="text/babel">
+        ReactDOM.render(
+         <Webgl  />,
+          document.getElementById('webgl'),
+          function() {
+            $('#btn').click(function() {
+            console.log('Hello!');
+            });
+        }
+        );
+        ReactDOM.render(
+         <List  />,
+          document.getElementById('list')
+        );
+        ReactDOM.render(
+         <PageA />,
+          document.getElementById('pageA')
+        );
+        ReactDOM.render(
+         <PageB />,
+          document.getElementById('pageB')
+        );
+        ReactDOM.render(
+         <PageC />,
+          document.getElementById('pageC')
+        );
+        ReactDOM.render(
+         <PageD />,
+          document.getElementById('pageD')
+        );
+    </script>
+
+    <script>
+        function Router() {
+            this.routes = {};
+            this.currentUrl = '';
+        }
+        Router.prototype.route = function (path, callback) {
+            this.routes[path] = callback || function () { };
+        };
+        Router.prototype.refresh = function () {
+            this.currentUrl = location.hash.slice(1) || '/';
+            this.routes[this.currentUrl]();
+        };
+        Router.prototype.init = function () {
+            window.addEventListener('load', this.refresh.bind(this), false);
+            window.addEventListener('hashchange', this.refresh.bind(this), false);
+        }
+        window.Router = new Router();
+        window.Router.init();
+
+        var content = document.querySelector('body');
+
+        function changeBgColor(color) {
+            console.log(color);
+        }
+
+        Router.route('/', function () {
+            $('#list').hide();
+            $('#pageA').hide();
+            $('#pageB').hide();
+            $('#pageC').hide();
+            $('#pageD').hide();
+            Webgl.sw();
+            Webgl.hidePage();
+        });
+        Router.route('/page-index-new', function () {
+            $('#pageA').hide();
+            $('#pageB').hide();
+            $('#pageC').hide();
+            $('#pageD').hide();
+        });
+        Router.route('/pageA', function () {
+            $('#pageA').show();
+            $('#pageB').hide();
+            $('#pageC').hide();
+            $('#pageD').hide();
+        });
+        Router.route('/pageB', function () {
+            $('#pageA').hide();
+            $('#pageB').show();
+            $('#pageC').hide();
+            $('#pageD').hide();
+        });
+        Router.route('/pageC', function () {
+            $('#pageA').hide();
+            $('#pageB').hide();
+            $('#pageC').show();
+            $('#pageD').hide();
+        });
+        Router.route('/pageD', function () {
+            $('#pageA').hide();
+            $('#pageB').hide();
+            $('#pageC').hide();
+            $('#pageD').show();
+        });
+        Router.route('/page-index-new', function () {
+            // console.log('/pop-input-start');
+        })
+    </script>
+</body>
+
+</html>

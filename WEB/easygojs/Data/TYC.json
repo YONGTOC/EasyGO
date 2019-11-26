@@ -1,0 +1,22 @@
+﻿{
+  "response": [
+    {
+      "building_name": "体育场",
+      "name": "一楼",
+      "FloorID": "1F",
+      "iconUrl": ""
+    },
+    {
+      "building_name": "体育场",
+      "name": "二楼",
+      "FloorID": "2F",
+      "iconUrl": ""
+    },
+    {
+      "building_name": "体育场",
+      "name": "三楼",
+      "FloorID": "3F",
+      "iconUrl": ""
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+    "response": [{
+        "tit": "体育场1F",
+        "txt": [{
+            "id":" 'id-ata11tt11'",
+            "txtt": "一楼功能区",
+            "rooms": [{
+                "roomID": "XWBGQ",
+                "floorID": "1F",
+                "companyName": "新闻办公区",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "GBDT",
+                "floorID": "1F",
+                "companyName": "贵宾大厅",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              }]
+        },
+            {
+            "id":" 'id-ata11tt11'",
+            "txtt": "一楼训练用房区",
+            "rooms": [{
+                "roomID": "LLXLQ",
+                "floorID": "1F",
+                "companyName": "力量训练区",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "XLYF",
+                "floorID": "1F",
+                "companyName": "训练用房",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "MT",
+                "floorID": "1F",
+                "companyName": "门厅",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "XLYF2",
+                "floorID": "1F",
+                "companyName": "训练用房",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              }]
+        },
+        {
+            "id": "'id-atb22gg2'",
+            "txtt": "一楼卫生间",
+            "rooms": [{
+                "roomID": "WSJ1",
+                "floorID": "1F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "WSJ1",
+                "floorID": "1F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "WSJ2",
+                "floorID": "1F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "WSJ3",
+                "floorID": "1F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "WSJ4",
+                "floorID": "1F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "WSJ5",
+                "floorID": "1F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "WSJ6",
+                "floorID": "1F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "WSJ7",
+                "floorID": "1F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "WSJ8",
+                "floorID": "1F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "WSJ9",
+                "floorID": "1F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "WSJ10",
+                "floorID": "1F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              }]
+        }]
+    }, {
+        "tit": "体育场2F",
+        "txt": [{
+            "id": "'id-btb1ww11'",
+            "txtt": "二楼观众席",
+            "rooms": [{
+                "roomID": "GZX",
+                "floorID": "2F",
+                "companyName": "观众席",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "GZX2",
+                "floorID": "2F",
+                "companyName": "观众席",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              }]
+        },
+        {
+            "id": "'id-btb2uu22'",
+            "txtt": "二楼卫生间",
+            "rooms": [{
+                "roomID": "2WSJ2",
+                "floorID": "2F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "2WSJ23",
+                "floorID": "2F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "2WSJ4",
+                "floorID": "2F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "2WSJ5",
+                "floorID": "2F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "2WSJ6",
+                "floorID": "2F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "2WSJ7",
+                "floorID": "2F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "2WSJ8",
+                "floorID": "2F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "2WSJ9",
+                "floorID": "2F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "2WSJ10",
+                "floorID": "2F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "2WSJ11",
+                "floorID": "2F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              },
+              {
+                "roomID": "2WSJ12",
+                "floorID": "2F",
+                "companyName": "卫生间",
+                "HyID": "6",
+                "iconUrl": "",
+                "imgUrl": ""
+              }]
+        }]
+    }, {
+        "tit":"体育场3F",
+        "txt": []
+    }
+    ]
+}

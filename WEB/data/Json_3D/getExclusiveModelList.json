@@ -1,0 +1,31 @@
+{
+    "response": [{
+            "WorkId": "XQ001",
+			"BaoId": "XQ001",
+            "OutModelMeshCount": 5,
+            "OutModelJPGCount": 3,
+            "OutModelPNGCount": 1
+        },
+         {
+            "WorkId": "XQ002",
+			"BaoId": "XQ002",
+            "OutModelMeshCount": 7,
+            "OutModelJPGCount": 5,
+            "OutModelPNGCount": 1
+        },
+         {
+            "WorkId": "XQ003",
+			"BaoId": "XQ003",
+            "OutModelMeshCount": 7,
+            "OutModelJPGCount": 5,
+            "OutModelPNGCount": 1
+        },
+         {
+            "WorkId": "XQ004",
+			"BaoId": "XQ004",
+            "OutModelMeshCount": 16,
+            "OutModelJPGCount": 14,
+            "OutModelPNGCount": 0
+        }
+    ]
+}
